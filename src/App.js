@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 import { HashRouter, Route } from "react-router-dom";
-import Breakfast from './components/Breakfast';
-import Meals from './components/Meals';
-import Account from './components/Account';
-import Welcome from './components/Welcome';
-import Navbar from './components/Navbar';
+import {Breakfast} from './components/Breakfast';
+import {Meals} from './components/Meals';
+import {Account} from './components/Account';
+import {Welcome} from './components/Welcome';
+import {Navbar} from './components/Navbar';
 
 import './App.css';
 
@@ -47,7 +47,7 @@ const {noTable,orders,numberTable,total} =this.state;
     return(
         <HashRouter basename="/"> 
             <div>      
-                <Route path = "/" component = {Welcome} exact />
+                <Route exact path = "/" component = {Welcome} />
 
                 <Route path = "/Meseros" render = {() => <Navbar 
                     table = {noTable}
