@@ -6,7 +6,7 @@ const Navbar = (props) => {
    return(
     <div>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <Link className="navbar-brand" to="/"className="welcome-letter">Burger Queen</Link>
+            <Link className="navbar-brand welcome-letter" to="/">Burger Queen</Link>
             <ul className="navbar-nav mr-auto mt-lg-0">
                 <li className="nav-item">
                     <Link className="nav-link ml-5" to = "/Meseros/Desayunos"> Desayunos </Link>

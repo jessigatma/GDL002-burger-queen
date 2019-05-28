@@ -20,7 +20,7 @@ class Meals extends Component{
                     > 
                         {/* <img className = "card-img-top" src={item.img} alt="Card image cap"/> */}
                         <div>
-                            <img className= "icon-button" src={item.image} />
+                            <img className= "icon-button" src={item.image} alt="icon-btn" />
                              <span> <br/>{item.Food} 
                                 {item.Foody}
                                  {item.Drink} 

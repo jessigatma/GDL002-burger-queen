@@ -20,7 +20,7 @@ class Breakfast extends Component{
                         onClick = {()=>this.props.addOrder(item)}  
                     > 
                         <div>
-                            <img className= "icon-button" src={item.image} />
+                            <img className= "icon-button" src={item.image} alt="icon-btn1"/>
                              <span> <br/>{item.Food} 
                                  {item.Drink} 
                                  {item.Coffee}  

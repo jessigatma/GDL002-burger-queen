@@ -23,8 +23,8 @@ const Account = (props) => {
                         <td>${item.price}</td>
                         <td><button className="btn btn-default btn-lg btn-border"
                                 type="button" 
-                                onClick={()=> props.removeOrder(index)}> 
-                                <img className="icon-account" src="https://i.ibb.co/JybpHmg/garbage-icon-png-3.png" /> 
+                                onClick={()=> props.removeOrder(index)}>  
+                                <img className="icon-account" src="https://i.ibb.co/JybpHmg/garbage-icon-png-3.png" alt="icon-account" /> 
                             </button>
                         </td>
                     </tr>
