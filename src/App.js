@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { BrowserRouter, Route } from "react-router-dom";
+import { HashRouter, Route } from "react-router-dom";
 import Breakfast from './components/Breakfast';
 import Meals from './components/Meals';
 import Account from './components/Account';
@@ -45,7 +45,7 @@ removeOrder = (index, item) => {
 render(){
 const {noTable,orders,numberTable,total} =this.state; 
     return(
-        <BrowserRouter>
+        <HashRouter basename="/"> 
             <div>      
                 <Route path = "/" component = {Welcome} exact />
 
@@ -87,7 +87,7 @@ const {noTable,orders,numberTable,total} =this.state;
                     </div>
                 </div>
             </div>  
-        </BrowserRouter>    
+        </HashRouter>    
     );
 }
 
