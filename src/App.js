@@ -7,7 +7,6 @@ import Welcome from './components/Welcome';
 import Navbar from './components/Navbar';
 
 import './App.css';
-import { basename } from 'path';
 
 class App extends Component{
     state = {
