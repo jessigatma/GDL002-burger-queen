@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 import { HashRouter, Route } from "react-router-dom";
-import Breakfast from './components/Breakfast';
-import Meals from './components/Meals';
-import Account from './components/Account';
-import Welcome from './components/Welcome';
-import Navbar from './components/Navbar';
+import {Breakfast} from './components/Breakfast';
+import {Meals} from './components/Meals';
+import {Account} from './components/Account';
+import {Welcome} from './components/Welcome';
+import {Navbar} from './components/Navbar';
 
 import './App.css';
 
