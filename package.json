@@ -2,7 +2,7 @@
   "name": "gdl002-burger-queen",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jessigatma.github.io/GDL002-burger-queen",
+  "homepage": "https://jessigatma.github.io/gdl002-burger-queen",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
