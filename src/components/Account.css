@@ -1,0 +1,27 @@
+.account-background{
+    background-color: rgb(233,223,154);
+}
+
+.account-letter{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: larger; 
+}
+.total-container{
+    background-color: aqua;
+    text-align: center;
+}
+.icon-account{
+    width: 25px;
+    height: 25px;
+    
+}
+.total-div{
+width: 6rem;
+height: 4rem;
+text-align: right;
+background-color: blueviolet;
+margin-left: 20rem
+}
+.kitchen-btn{
+    background-color: rgb(218,172,64);
+}

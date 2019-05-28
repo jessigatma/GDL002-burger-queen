@@ -1,0 +1,150 @@
+{
+    "menuMeals":[
+      {
+          "img": "https://i.ibb.co/xSzJPBS/32386sandwich-98891.png",
+          "Food": "Hamburguesa Simple",
+          "price": 10,
+          "status": "enviado",
+          "objectID": 0,
+          "type": "meal"
+      },
+      {
+          "img": "https://i.ibb.co/3pqJdnk/130484.png",
+          "Food": "Hamburguesa Doble",
+          "price": 15,
+          "status": "enviado",
+          "objectID": 1,
+          "type": "meal"
+      },
+      {
+          "img": "https://i.ibb.co/3pqJdnk/130484.png",
+          "Food": "Papas Fritas",
+          "price": 5,
+          "status": "enviado",
+          "objectID":2,
+          "type": "meal"
+      },
+      {
+          "img": "https://i.ibb.co/dbnDMMZ/883655.png ",
+          "Food": "Aros de Cebolla",
+          "price": 5,
+          "status": "enviado",
+          "objectID": 3,
+          "type": "meal"
+      },
+      {
+        "img": "https://i.ibb.co/xSzJPBS/32386sandwich-98891.png",
+        "Food": "Agua 500ml",
+        "price": 5,
+        "status": "enviado",
+        "objectID": 4,
+        "type": "meal"
+    },
+    {
+        "img": "https://i.ibb.co/3pqJdnk/130484.png",
+        "Food": "Agua 750ml",
+        "price": 7,
+        "status": "enviado",
+        "objectID": 5,
+        "type": "meal"
+    },
+    {
+        "img": "https://i.ibb.co/3pqJdnk/130484.png",
+        "Food": "Bebida/gaseosa 500ml",
+        "price": 7,
+        "status": "enviado",
+        "objectID": 6,
+        "type": "meal"
+    },
+    {
+        "img": "https://i.ibb.co/xSzJPBS/32386sandwich-98891.png",
+        "Food": "Bebida/gaseosa 750ml",
+        "price": 10,
+        "status": "enviado",
+        "objectID": 7,
+        "type": "meal"
+    },
+    {
+        "img": "https://i.ibb.co/3pqJdnk/130484.png",
+        "Food": "Hamburguesa Simple Pollo",
+        "price": 10,
+        "status": "enviado",
+        "objectID": 8,
+        "type": "meal"
+    },
+    {
+        "img": "https://i.ibb.co/3pqJdnk/130484.png",
+        "Food": "Hamburguesa Simple Vegetariana",
+        "price": 10,
+        "status": "enviado",
+        "objectID": 9,
+        "type": "meal"
+    },
+    {
+        "img": "https://i.ibb.co/3pqJdnk/130484.png",
+        "Food": "Hamburguesa Doble Pollo",
+        "price": 15,
+        "status": "enviado",
+        "objectID": 10,
+        "type": "meal"
+    },
+    {
+        "img": "https://i.ibb.co/3pqJdnk/130484.png",
+        "Food": "Hamburguesa Doble Vegetariana",
+        "price": 15,
+        "status": "enviado",
+        "objectID":11,
+        "type": "meal"
+    },
+    {
+        "img": "https://i.ibb.co/3pqJdnk/130484.png",
+        "Food": "Adicional Queso",
+        "price": 1,
+        "status": "enviado",
+        "objectID": 12,
+        "type": "meal"
+    },
+    {
+        "img": "https://i.ibb.co/3pqJdnk/130484.png",
+        "Food": "Adicional Huevo",
+        "price": 1,
+        "status": "enviado",
+        "objectID":13,
+        "type": "meal"
+    }
+    ],
+    "menuBreakfast":[
+        {
+            "img": "https://i.ibb.co/xSzJPBS/32386sandwich-98891.png",
+            "Food": "Sandwich de jamón y queso",
+            "price": 10,
+            "status": "enviado",
+            "objectID": 0
+        },
+        {
+            "img": "https://i.ibb.co/3pqJdnk/130484.png",
+            "Food": "Café Americano",
+            "price": 5,
+            "status": "enviado",
+            "objectID": 1,
+            "type": "breakfast"
+        },
+        {
+            "img": "https://i.ibb.co/3pqJdnk/130484.png",
+            "Food": "Café con leche",
+            "price": 7,
+            "status": "enviado",
+            "objectID":2,
+            "type": "breakfast"
+        },
+        {
+            "img": "https://i.ibb.co/dbnDMMZ/883655.png ",
+            "Food": "Jugo de frutas",
+            "price": 8,
+            "status": "enviado",
+            "objectID": 3,
+            "type": "breakfast"
+        }
+
+    ]
+}

@@ -1,0 +1,32 @@
+{
+  "menuBreakfast":[
+    {
+        "image": "https://i.ibb.co/XZCrF8j/Icon-food-2017-31-512.png",
+        "Food": "Sandwich de jamón y queso",
+        "price": 10,
+        "status": "enviado",
+        "objectID": 0
+    },
+    {
+        "image": "https://i.ibb.co/FqrbHHq/Icon-food-2017-8-512.png",
+        "Coffee": "Café Americano",
+        "price": 5,
+        "status": "enviado",
+        "objectID": 1
+    },
+    {
+        "image": "https://i.ibb.co/FqrbHHq/Icon-food-2017-8-512.png",
+        "Coffee": "Café con leche",
+        "price": 7,
+        "status": "enviado",
+        "objectID":2
+    },
+    {
+        "image": "https://i.ibb.co/84MdFgL/Icon-food-2017-14-128.png ",
+        "Drink": "Jugo de frutas",
+        "price": 8,
+        "status": "enviado",
+        "objectID": 3
+    }
+  ]
+}

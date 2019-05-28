@@ -1,0 +1,102 @@
+{
+    "menuMeals": [{
+            "image": "https://i.ibb.co/k8KDHwq/2f615e72ef2b153b5547f49fbb1f0ad6-boceto-de-hamburguesa-by-vexels.png",
+            "Food": "Hamburguesa Simple",
+            "price": 10,
+            "status": "enviado",
+            "objectID": 0
+        },
+        {
+            "image": "https://i.ibb.co/k8KDHwq/2f615e72ef2b153b5547f49fbb1f0ad6-boceto-de-hamburguesa-by-vexels.png",
+            "Food": "Hamburguesa Simple Pollo",
+            "price": 10,
+            "status": "enviado",
+            "objectID": 8
+        },
+        {
+            "image": "https://i.ibb.co/k8KDHwq/2f615e72ef2b153b5547f49fbb1f0ad6-boceto-de-hamburguesa-by-vexels.png",
+            "Food": "Hamburguesa Simple Vegetariana",
+            "price": 10,
+            "status": "enviado",
+            "objectID": 9
+        },
+        {
+            "image": "https://i.ibb.co/k8KDHwq/2f615e72ef2b153b5547f49fbb1f0ad6-boceto-de-hamburguesa-by-vexels.png",
+            "Food": "Hamburguesa Doble",
+            "price": 15,
+            "status": "enviado",
+            "objectID": 1
+        },
+        {
+            "image": "https://i.ibb.co/k8KDHwq/2f615e72ef2b153b5547f49fbb1f0ad6-boceto-de-hamburguesa-by-vexels.png",
+            "Food": "Hamburguesa Doble Pollo",
+            "price": 15,
+            "status": "enviado",
+            "objectID": 10
+        },
+        {
+            "image": "https://i.ibb.co/k8KDHwq/2f615e72ef2b153b5547f49fbb1f0ad6-boceto-de-hamburguesa-by-vexels.png",
+            "Food": "Hamburguesa Doble Vegetariana",
+            "price": 15,
+            "status": "enviado",
+            "objectID": 11
+        },
+        {
+            "image": "https://i.ibb.co/BzdRq74/Icon-food-2017-20-512.png",
+            "Foody": "Papas Fritas",
+            "price": 5,
+            "status": "enviado",
+            "objectID": 2
+        },
+        {
+            "image": "https://i.ibb.co/BzdRq74/Icon-food-2017-20-512.png ",
+            "Foody": "Aros de Cebolla",
+            "price": 5,
+            "status": "enviado",
+            "objectID": 3
+        },
+        {
+            "image": "https://i.ibb.co/jggX7Dy/Icon-food-2017-27-128.png",
+            "Drink": "Agua 500ml",
+            "price": 5,
+            "status": "enviado",
+            "objectID": 4
+        },
+        {
+            "image": "https://i.ibb.co/jggX7Dy/Icon-food-2017-27-128.png",
+            "Drink": "Agua 750ml",
+            "price": 7,
+            "status": "enviado",
+            "objectID": 5
+        },
+        {
+            "image": "https://i.ibb.co/PTTWBf9/Icon-food-2017-2-128.png",
+            "Drink": "Bebida/gaseosa 500ml",
+            "price": 7,
+            "status": "enviado",
+            "objectID": 6
+        },
+        {
+            "image": "https://i.ibb.co/PTTWBf9/Icon-food-2017-2-128.png",
+            "Drink": "Bebida/gaseosa 750ml",
+            "price": 10,
+            "status": "enviado",
+            "objectID": 7
+        },
+
+        {
+            "image": "https://i.ibb.co/Jv3DXXb/Icon-food-2017-23-128.png",
+            "Extra": "Adicional Queso",
+            "price": 1,
+            "status": "enviado",
+            "objectID": 12
+        },
+        {
+            "image": "https://i.ibb.co/Jv3DXXb/Icon-food-2017-23-128.png",
+            "Extra": "Adicional Huevo",
+            "price": 1,
+            "status": "enviado",
+            "objectID": 13
+        }
+    ]
+}

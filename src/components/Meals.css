@@ -1,0 +1,12 @@
+.meals-background{
+    background-image: url("https://i.ibb.co/LnGjwyX/75345726-rayas-verticales-l-neas-vintage-rosa-patr-n-de-fondo.jpg");
+}
+.meal-btn{
+    width: 9.5rem;
+    height: 9.5rem;
+    display: inline-grid;
+    background-color: rgb(144,165,126);
+    grid-template-columns: auto;
+    grid-gap:2rem;
+    border-radius: 5rem;
+}

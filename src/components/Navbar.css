@@ -1,0 +1,15 @@
+.welcome-letter{
+    font-family: 'Lobster', cursive;
+    font-size: xx-large;
+    color: rgb(210,75,55);
+}
+.input-table{
+    color: white;
+    inline-size: auto;
+}
+.ok-btn{
+    width: 30px;
+    height: 30px;
+    text-align: left;
+    padding: 1%;
+}
