@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
-import { HashRouter, Route } from "react-router-dom";
-import {Breakfast} from './components/Breakfast';
-import {Meals} from './components/Meals';
-import {Account} from './components/Account';
-import {Welcome} from './components/Welcome';
-import {Navbar} from './components/Navbar';
+import { BrowserRouter, Route } from "react-router-dom";
+import Breakfast from './components/Breakfast';
+import Meals from './components/Meals';
+import Account from './components/Account';
+import Welcome from './components/Welcome';
+import Navbar from './components/Navbar';
 
 import './App.css';
 
@@ -45,9 +45,9 @@ removeOrder = (index, item) => {
 render(){
 const {noTable,orders,numberTable,total} =this.state; 
     return(
-        <HashRouter basename="/"> 
+        <BrowserRouter>
             <div>      
-                <Route exact path = "/" component = {Welcome} />
+                <Route path = "/" component = {Welcome} exact />
 
                 <Route path = "/Meseros" render = {() => <Navbar 
                     table = {noTable}
@@ -87,7 +87,7 @@ const {noTable,orders,numberTable,total} =this.state;
                     </div>
                 </div>
             </div>  
-        </HashRouter>    
+        </BrowserRouter>    
     );
 }
 
