@@ -7,7 +7,7 @@ const Account = (props) => {
         <div className="col-md-4 account-background" >
              <h4> Mesa No {props.numberTable}</h4>
                 
-            <table class="table table-striped">
+            <table className="table table-striped">
                 <thead>
                     <tr>
                         {/* <th scope="col">Index</th> */}
@@ -18,7 +18,7 @@ const Account = (props) => {
                 </thead>
                 <tbody>
                     {props.orders.map((item, index) =>
-                    <tr>
+                    <tr key={index}>
                         <td>{item.Food} {item.Coffee}{item.Drink}{item.Foody}{item.Extra}</td>
                         <td>${item.price}</td>
                         <td><button className="btn btn-default btn-lg btn-border"

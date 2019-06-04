@@ -13,7 +13,7 @@ class Breakfast extends Component{
         <div className="col-md-8 breakfast-background">
             <h1 className="center">¡Buenos días!</h1>
             {menuBreakfast.map((item,index) =>
-                <div className="btn-group mt-3" key={index}>
+                <div  key={index} className="btn-group mt-3">
                     <button 
                         type="button"
                         className="btn btn-default btn-md mt-4  brk-btn"

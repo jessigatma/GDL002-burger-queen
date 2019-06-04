@@ -4,7 +4,7 @@ import './Welcome.css';
 
 const Welcome = () =>{
     return(
-        <div>
+        <div >
             {/* <header>Bienvenido a</header>
             <h1 className="burger-letter">Burger Queen</h1> */}
             <Link to="/Meseros"> Meseros </Link>

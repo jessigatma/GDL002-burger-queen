@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
-import { HashRouter, Route } from "react-router-dom";
-import {Breakfast} from './components/Breakfast';
-import {Meals} from './components/Meals';
-import {Account} from './components/Account';
-import {Welcome} from './components/Welcome';
-import {Navbar} from './components/Navbar';
+import { BrowserRouter, Route } from "react-router-dom";
+import Breakfast from './components/Breakfast';
+import Meals from './components/Meals';
+import Account from './components/Account';
+import Welcome from './components/Welcome';
+import Navbar from './components/Navbar';
 
 import './App.css';
 
@@ -14,7 +14,8 @@ class App extends Component{
         orders: [],
         numberTable:'',
         total: 0,
-};
+        
+    };
 
 getTableNumber = (event) =>{
         this.setState({
@@ -38,14 +39,16 @@ this.setState({total: this.state.total + price})
 
 }
 
-removeOrder = (index, item) => {
-     this.setState({orders: this.state.orders.filter((e,i)=>{return i !== index})})
+removeOrder = (index) => {
+    let newTotal= (this.state.orders[index].price);
+     this.setState({orders: this.state.orders.filter((e,i)=> {return i !== index}),
+                    total: this.state.total - newTotal})
  }
 
 render(){
 const {noTable,orders,numberTable,total} =this.state; 
     return(
-        <HashRouter basename = "/">
+        <BrowserRouter>
             <div>      
                 <Route path = "/" component = {Welcome} exact />
 
@@ -87,7 +90,7 @@ const {noTable,orders,numberTable,total} =this.state;
                     </div>
                 </div>
             </div>  
-        </HashRouter>    
+        </BrowserRouter>    
     );
 }
 
