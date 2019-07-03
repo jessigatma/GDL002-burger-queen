@@ -19,7 +19,7 @@ const Account = (props) => {
                 <tbody>
                     {props.orders.map((item, index) =>
                     <tr key={index}>
-                        <td>{item.Food} {item.Coffee}{item.Drink}{item.Foody}{item.Extra}</td>
+                        <td>{item.food} {item.Coffee}{item.Drink}{item.Foody}{item.Extra}</td>
                         <td>${item.price}</td>
                         <td><button className="btn btn-default btn-lg btn-border"
                                 type="button" 

@@ -5,6 +5,7 @@ import Meals from './components/Meals';
 import Account from './components/Account';
 import Welcome from './components/Welcome';
 import Navbar from './components/Navbar';
+import Kitchen from './components/Kitchen';
 
 import './App.css';
 
@@ -52,12 +53,15 @@ const {noTable,orders,numberTable,total} =this.state;
             <div>      
                 <Route path = "/" component = {Welcome} exact />
 
+                <Route path="/Cocina" component = {Kitchen} />
+
                 <Route path = "/Meseros" render = {() => <Navbar 
                     table = {noTable}
                     getTableNumber={this.getTableNumber}
                     addNumberTable = {this.addNumberTable}
                     /> } 
                 />
+
                 <div className="container-fluid">
                     <div className="row">
                 <Route path = "/Meseros/Desayunos" render = {() => <Breakfast 
