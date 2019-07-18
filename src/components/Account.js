@@ -41,10 +41,6 @@ const Account = (props) => {
                     </tr>             
                 </tbody>
             </table>
-            {/* <ul class="list-group">
-                <li class="list-group-item">Total: ${props.total}</li> 
-            </ul>      */}
-
 
             <div>
                 
