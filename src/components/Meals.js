@@ -17,7 +17,7 @@ class Meals extends Component{
      const {products} = this.state;
      return(
         <div className="col-md-8 meals-background">
-            <h1>¡Buenas tardes!</h1>
+            <h1 className="center">¡Buenas tardes!</h1>
             {products.map((item,index) =>
                 <div className="btn-group p-0 " key={index}>
                     <button 

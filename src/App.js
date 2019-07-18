@@ -14,8 +14,7 @@ class App extends Component{
         noTable:'',
         orders: [],
         numberTable:'',
-        total: 0,
-        
+        total: 0,        
     };
 
 getTableNumber = (event) =>{
@@ -32,19 +31,43 @@ addNumberTable = (numberTable) =>{
 }
 
 addOrder = (item) => {
-    this.setState({orders: [...this.state.orders, item]}, () => this.sumItemPrice(item.price))
+    this.setState({orders: [...this.state.orders, item]}, () => {
+        this.sumItemPrice(item.price)
+        console.log(this.state.orders)})
 }
 
 sumItemPrice =(price) =>{
 this.setState({total: this.state.total + price})
-
 }
 
 removeOrder = (index) => {
     let newTotal= (this.state.orders[index].price);
-     this.setState({orders: this.state.orders.filter((e,i)=> {return i !== index}),
+     this.setState({orders: this.state.orders.filter((e,i)=> {return i !== index}, console.log(this.state.orders)),
                     total: this.state.total - newTotal})
  }
+
+onSubmit = () => {
+    const url = "http://localhost:8080/orders";
+    const sendOrder = {
+        "table": this.state.numberTable,
+        "products": this.state.orders
+        // "status": 'send'
+    }
+    this.fetchPost(url, sendOrder);
+}
+
+fetchPost = (url,data) =>{
+    fetch(url,{
+        method:'post',
+        body: JSON.stringify(data),
+			headers:{
+				'Content-Type': 'application/json'
+			}
+        })
+        .then(res => res.json())
+		.then(response => console.log('status de respuesta', JSON.stringify(response)))
+		.catch(error => console.log('Error ', error)); 
+}
 
 render(){
 const {noTable,orders,numberTable,total} =this.state; 
@@ -73,6 +96,7 @@ const {noTable,orders,numberTable,total} =this.state;
                     numberTable={numberTable}
                     total = {total}
                     removeOrder={this.removeOrder}
+                    onSubmit = {this.onSubmit}
                     /> } 
                 />      
                     </div>
@@ -89,6 +113,7 @@ const {noTable,orders,numberTable,total} =this.state;
                     numberTable={numberTable}
                     total = {total}
                     removeOrder={this.removeOrder}
+                    onSubmit = {this.onSubmit}
                     /> } 
                 />
                     </div>

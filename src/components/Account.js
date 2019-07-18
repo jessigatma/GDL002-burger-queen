@@ -19,7 +19,7 @@ const Account = (props) => {
                 <tbody>
                     {props.orders.map((item, index) =>
                     <tr key={index}>
-                        <td>{item.food} {item.Coffee}{item.Drink}{item.Foody}{item.Extra}</td>
+                        <td>{item.food}</td>
                         <td>${item.price}</td>
                         <td><button className="btn btn-default btn-lg btn-border"
                                 type="button" 
@@ -33,7 +33,8 @@ const Account = (props) => {
                         <td className="h5">  TOTAL: </td>
                         <td className="h5"> ${props.total}</td>
                         <td> <button type="button" 
-                            className="bt btn-primary kitchen-btn">
+                            className="bt btn-primary kitchen-btn"
+                            onClick={()=> props.onSubmit()}>
                             Enviar a Cocina
                             </button> 
                         </td>
