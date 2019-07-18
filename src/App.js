@@ -47,7 +47,7 @@ removeOrder = (index) => {
  }
 
 onSubmit = () => {
-    const url = "http://localhost:8080/orders";
+    const url = "/orders";
     const sendOrder = {
         "table": this.state.numberTable,
         "products": this.state.orders
