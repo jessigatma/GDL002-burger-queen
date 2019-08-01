@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-// import {menuMeals} from './menuMeals.json'
 import './Meals.css'
 
 class Meals extends Component{

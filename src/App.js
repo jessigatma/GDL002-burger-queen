@@ -50,7 +50,7 @@ onSubmit = () => {
     const url = "/orders";
     const sendOrder = {
         "table": this.state.numberTable,
-        "products": this.state.orders
+        "cashOrder": this.state.orders
         // "status": 'send'
     }
     this.fetchPost(url, sendOrder);

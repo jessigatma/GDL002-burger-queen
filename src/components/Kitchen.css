@@ -1,7 +1,20 @@
-.kitchen-background{
-    background-image: url("https://i.ibb.co/5czpf4z/r-BVa-HVbt-Uz-WAQv7-VAAFn5-Lr-Ni5-Y595.jpg");
+.kitchen-background {
+  background-image: url('https://i.ibb.co/5czpf4z/r-BVa-HVbt-Uz-WAQv7-VAAFn5-Lr-Ni5-Y595.jpg');
 }
 
-.cardkitchen{
-    width: 18rem;
+.cardkitchen {
+  width: 18rem;
+}
+
+.square {
+  background-color: rgb(234, 143, 114);
+  padding: 2%;
+  margin: 1%;
+  /*margin-right: 75%; */
+  width: 18rem;
+}
+
+.container {
+  display: flex;
+  align-content: flex-start;
 }
