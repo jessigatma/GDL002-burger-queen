@@ -8,7 +8,7 @@ class Kitchen extends Component {
   };
 
   componentDidMount() {
-    fetch('/orders')
+    fetch('https://gdl002-burger-queen-backend.jessgatma.now.sh/orders')
       .then(res => res.json())
       .then(cashOrders => {
         this.setState({ cashOrders: cashOrders.orders }, () =>

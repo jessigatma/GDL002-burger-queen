@@ -7,7 +7,9 @@ class Breakfast extends Component {
   };
 
   componentDidMount() {
-    fetch('/products/breakfast')
+    fetch(
+      'https://gdl002-burger-queen-backend.jessgatma.now.sh/products/breakfast'
+    )
       .then(res => res.json())
       .then(products => {
         this.setState({ products: products.products }, () =>
